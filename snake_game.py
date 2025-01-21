@@ -35,7 +35,6 @@ class SnakeGame:
         pygame.display.set_caption('Snake')
         self.clock = pygame.time.Clock()
         
-        # init game state
         self.direction = Direction.RIGHT
         
         self.head = Point(self.w/2, self.h/2)
