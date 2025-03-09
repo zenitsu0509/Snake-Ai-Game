@@ -139,7 +139,5 @@ if __name__ == '__main__':
         if game_over == True:
             break
         
-    print('Final Score', score)
-        
-        
+    print('Final Score', score) 
     pygame.quit()
